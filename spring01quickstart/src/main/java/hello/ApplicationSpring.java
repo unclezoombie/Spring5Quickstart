@@ -37,12 +37,12 @@ public class ApplicationSpring {
         // Get MessagePrinter from IOC container
         MessagePrinter printer = context.getBean(MessagePrinter.class);
         // Get MessageService from IOC container
-        MessageService service = context.getBean(MessageService.class);
+//        MessageService service = context.getBean(MessageService.class);
 
-        System.out.println(printer);
-        System.out.println(service);
+//        System.out.println(printer);
+//        System.out.println(service);
 
-        printer.setService(service);
+//        printer.setService(service);
         printer.printMessage();
     }
 }
