@@ -33,6 +33,17 @@ public class ApplicationSpring {
         System.out.println("Application starting...");
         // Initialize Spring ioc container
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationSpring.class);
+
+        // Get MessagePrinter from IOC container
+        MessagePrinter printer = context.getBean(MessagePrinter.class);
+        // Get MessageService from IOC container
+        MessageService service = context.getBean(MessageService.class);
+
+        System.out.println(printer);
+        System.out.println(service);
+
+        printer.setService(service);
+        printer.printMessage();
     }
 }
 
