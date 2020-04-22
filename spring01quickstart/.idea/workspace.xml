@@ -4,7 +4,6 @@
     <list default="true" id="86abcc42-8711-431d-9d40-0dc999ae1da4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/ApplicationSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/ApplicationSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/MessagePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/MessagePrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
