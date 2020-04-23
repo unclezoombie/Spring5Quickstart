@@ -7,3 +7,6 @@ target\
 # ignore .gitignore file itself
 .gitignore
 
+# ignoe IntelliJ workspace.xml file.
+.workspace.xml
+
