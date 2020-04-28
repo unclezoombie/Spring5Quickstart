@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Erick 2020.04.27:14:59
  */
-@Component
+//@Component
 public class CompactDisk {
 
     public CompactDisk() {

@@ -4,6 +4,7 @@
     <list default="true" id="69319839-0b30-40b9-869d-ed2c401092cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SoundSystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoundSystem/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SoundSystem/CompactDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoundSystem/CompactDisk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="C:\IdeaProjects\das-server\das-server\apring03wired-auto\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppSpringTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SoundSystem.App" />
       <module name="spring03wired-auto" />
@@ -115,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppSpringTest" />
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppSpringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,22 +160,22 @@
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
     <state x="2127" y="397" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588095356738" />
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1588111281697">
+    <state width="1877" height="455" key="GridCell.Tab.0.bottom" timestamp="1588112401379">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588111281697" />
-    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1588111281691">
+    <state width="1877" height="455" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
+    <state width="1877" height="455" key="GridCell.Tab.0.center" timestamp="1588112401379">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588111281691" />
-    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1588111281691">
+    <state width="1877" height="455" key="GridCell.Tab.0.center/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
+    <state width="1877" height="455" key="GridCell.Tab.0.left" timestamp="1588112401379">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588111281691" />
-    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1588111281691">
+    <state width="1877" height="455" key="GridCell.Tab.0.left/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
+    <state width="1877" height="455" key="GridCell.Tab.0.right" timestamp="1588112401379">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588111281691" />
+    <state width="1877" height="455" key="GridCell.Tab.0.right/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
     <state x="2142" y="309" key="chooseDestDirectoryDialog" timestamp="1588096880912">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>

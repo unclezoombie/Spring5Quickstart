@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class CDPlayer {
-//    @Autowired
+    @Autowired
     private Power power;
-//    @Autowired
+    @Autowired(required = false)
     private CompactDisk cd;
 
     public CDPlayer() {
@@ -18,7 +18,7 @@ public class CDPlayer {
         System.out.println("CDPlayer with NO parameter constructor!");
     }
 
-    @Autowired
+//    @Autowired
     public CDPlayer(Power power, CompactDisk cd) {
         this.power = power;
         this.cd = cd;
@@ -37,6 +37,11 @@ public class CDPlayer {
 
     public void play() {
         power.supply();
-        cd.play();
+
+        // Note: We have to check null pointer of cd, since autowire is set to non-mandatory. So cd could be null.
+        if (cd != null) {
+            cd.play();
+        }
+
     }
 }
