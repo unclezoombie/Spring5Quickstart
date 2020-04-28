@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class CDPlayer {
-    @Autowired
+//    @Autowired
     private Power power;
-    @Autowired
+//    @Autowired
     private CompactDisk cd;
 
     public CDPlayer() {
@@ -18,6 +18,7 @@ public class CDPlayer {
         System.out.println("CDPlayer with NO parameter constructor!");
     }
 
+    @Autowired
     public CDPlayer(Power power, CompactDisk cd) {
         this.power = power;
         this.cd = cd;
