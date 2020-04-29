@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(classes = AppConfig.class)
 public class UserServiceTest {
     @Autowired
-    @Qualifier("normal")
+    @Qualifier("festival")
     private UserService userService;
 
     @Test

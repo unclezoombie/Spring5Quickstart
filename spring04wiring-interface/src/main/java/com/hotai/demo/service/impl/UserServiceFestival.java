@@ -5,8 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
-@Qualifier("festival")
+@Component("festival")
 public class UserServiceFestival implements UserService {
     @Override
     public void add() {
