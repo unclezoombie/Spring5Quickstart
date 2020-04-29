@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69319839-0b30-40b9-869d-ed2c401092cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/service/impl/UserServiceFestival.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/service/impl/UserServiceFestival.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/service/impl/UserServiceNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/service/impl/UserServiceNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/service/UserServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="69319839-0b30-40b9-869d-ed2c401092cb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
