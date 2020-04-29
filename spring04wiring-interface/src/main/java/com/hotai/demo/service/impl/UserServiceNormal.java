@@ -1,9 +1,11 @@
 package com.hotai.demo.service.impl;
 
 import com.hotai.demo.service.UserService;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+@Qualifier("normal")
 public class UserServiceNormal implements UserService {
     @Override
     public void add() {
