@@ -1,4 +1,4 @@
-package com.hotai.demo.service;
+package com.hotai.demo;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
