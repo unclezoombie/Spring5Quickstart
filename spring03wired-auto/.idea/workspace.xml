@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69319839-0b30-40b9-869d-ed2c401092cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/main/java/com/hotai/demo/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/web/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04wiring-interface/src/test/java/com/hotai/demo/web/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,22 +162,22 @@
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
     <state x="2105" y="289" key="FileChooserDialogImpl/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112668251" />
-    <state width="1877" height="455" key="GridCell.Tab.0.bottom" timestamp="1588112401379">
+    <state width="1877" height="455" key="GridCell.Tab.0.bottom" timestamp="1588272131560">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
-    <state width="1877" height="455" key="GridCell.Tab.0.center" timestamp="1588112401379">
+    <state width="1877" height="455" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588272131560" />
+    <state width="1877" height="455" key="GridCell.Tab.0.center" timestamp="1588272131560">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.0.center/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
-    <state width="1877" height="455" key="GridCell.Tab.0.left" timestamp="1588112401379">
+    <state width="1877" height="455" key="GridCell.Tab.0.center/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588272131560" />
+    <state width="1877" height="455" key="GridCell.Tab.0.left" timestamp="1588272131559">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.0.left/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
-    <state width="1877" height="455" key="GridCell.Tab.0.right" timestamp="1588112401379">
+    <state width="1877" height="455" key="GridCell.Tab.0.left/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588272131559" />
+    <state width="1877" height="455" key="GridCell.Tab.0.right" timestamp="1588272131560">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.0.right/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588112401379" />
+    <state width="1877" height="455" key="GridCell.Tab.0.right/0.0.1366.728/1366.8.1920.1040@1366.8.1920.1040" timestamp="1588272131560" />
     <state x="2142" y="309" key="chooseDestDirectoryDialog" timestamp="1588096880912">
       <screen x="1366" y="8" width="1920" height="1040" />
     </state>
