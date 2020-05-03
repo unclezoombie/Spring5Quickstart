@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 public class UserDAOImpl implements UserDAO {
     @Override
     public void add() {
-        System.out.println("UserDAOImpl: a new user record has been added to repository!");
+        System.out.println("UserDAOImpl: a new user record has been added to the DB!");
     }
 }

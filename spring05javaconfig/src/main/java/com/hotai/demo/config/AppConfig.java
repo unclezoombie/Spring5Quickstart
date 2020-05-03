@@ -2,6 +2,7 @@ package com.hotai.demo.config;
 
 import com.hotai.demo.dao.UserDAO;
 import com.hotai.demo.dao.impl.UserDAOImpl;
+import com.hotai.demo.dao.impl.UserDaoCache;
 import com.hotai.demo.service.UserService;
 import com.hotai.demo.service.impl.UserServiceFestival;
 import com.hotai.demo.service.impl.UserServiceNormal;
@@ -9,6 +10,7 @@ import com.hotai.demo.web.UserController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 @Configuration
 //@ComponentScan
@@ -18,11 +20,17 @@ import org.springframework.context.annotation.Configuration;
 //@ComponentScan(basePackageClasses = {UserController.class, UserService.class, UserDAO.class})
 public class AppConfig {
     @Bean
-    public UserDAO userDAO () {
-        System.out.println("AppConfig: creating UserDAO!");
+    public UserDAO userDAOImpl () {
+        System.out.println("AppConfig: creating userDAOImpl!");
         return new UserDAOImpl();
     }
 
+    @Bean
+    @Primary
+    public UserDAO userDaoCache () {
+        System.out.println("AppConfig: creating userDaoCache!");
+        return new UserDaoCache();
+    }
     @Bean
     public UserService userService(UserDAO userDAO) {
         System.out.println("AppConfig: creating UserService!");

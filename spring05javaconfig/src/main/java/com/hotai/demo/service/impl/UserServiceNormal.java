@@ -21,6 +21,7 @@ public class UserServiceNormal implements UserService {
 
     @Override
     public void add() {
+        userDAO.add();
         System.out.println("UserServiceNormal: a user has been added!");
     }
 }
