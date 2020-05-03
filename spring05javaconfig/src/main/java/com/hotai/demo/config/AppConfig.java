@@ -4,6 +4,7 @@ import com.hotai.demo.dao.UserDAO;
 import com.hotai.demo.dao.impl.UserDAOImpl;
 import com.hotai.demo.service.UserService;
 import com.hotai.demo.service.impl.UserServiceFestival;
+import com.hotai.demo.service.impl.UserServiceNormal;
 import com.hotai.demo.web.UserController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -23,9 +24,9 @@ public class AppConfig {
     }
 
     @Bean
-    public UserService userService() {
+    public UserService userService(UserDAO userDAO) {
         System.out.println("AppConfig: creating UserService!");
-        return new UserServiceFestival();
+        return new UserServiceNormal(userDAO);
     }
 
     @Bean

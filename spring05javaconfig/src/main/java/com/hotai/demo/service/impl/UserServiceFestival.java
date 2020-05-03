@@ -12,6 +12,11 @@ public class UserServiceFestival implements UserService {
     @Autowired
     private UserDAO userDAO;
 
+    public UserServiceFestival() {
+        super();
+        System.out.println("UserServiceFestival has bean created by constructor with no parameters!");
+    }
+
     @Override
     public void add() {
         userDAO.add();
