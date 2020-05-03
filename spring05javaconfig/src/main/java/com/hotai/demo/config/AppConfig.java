@@ -7,6 +7,7 @@ import com.hotai.demo.service.UserService;
 import com.hotai.demo.service.impl.UserServiceFestival;
 import com.hotai.demo.service.impl.UserServiceNormal;
 import com.hotai.demo.web.UserController;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -26,13 +27,14 @@ public class AppConfig {
     }
 
     @Bean
-    @Primary
+    @Qualifier("cacheDAO")
     public UserDAO userDaoCache () {
         System.out.println("AppConfig: creating userDaoCache!");
         return new UserDaoCache();
     }
     @Bean
-    public UserService userService(UserDAO userDAO) {
+    @Qualifier("dbDAO")
+    public UserService userService(@Qualifier("cacheDAO") UserDAO userDAO) {
         System.out.println("AppConfig: creating UserService!");
         return new UserServiceNormal(userDAO);
     }
