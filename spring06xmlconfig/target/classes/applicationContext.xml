@@ -8,7 +8,7 @@
 	   		http://www.springframework.org/schema/context
 	   		http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-    <bean class = "com.hotai.demo.soundsystem.CompactDisk"/>
-    <bean class = "com.hotai.demo.soundsystem.CompactDisk"/>
+    <bean id = "CD1" class = "com.hotai.demo.soundsystem.CompactDisk"/>
+    <bean id = "CD2" class = "com.hotai.demo.soundsystem.CompactDisk"/>
 
 </beans>

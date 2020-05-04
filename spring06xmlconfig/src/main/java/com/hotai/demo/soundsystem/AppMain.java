@@ -8,7 +8,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class AppMain {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        CompactDisk cd = (CompactDisk) context.getBean("com.hotai.demo.soundsystem.CompactDisk#0");
-        cd.play();
+        CompactDisk cd1 = (CompactDisk) context.getBean("CD1");
+        CompactDisk cd2 = (CompactDisk) context.getBean("CD2");
+        cd1.play();
+        cd2.play();
     }
 }
