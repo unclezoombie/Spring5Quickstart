@@ -3,6 +3,7 @@ package com.hotai.demo.soundsystem;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -15,9 +16,14 @@ public class AppTest {
     @Autowired
     private CompactDisk CD2;
 
+    @Autowired
+    @Qualifier("CD1")
+    private CompactDisk CD3;
+
     @Test
     public void testApp() {
         CD1.play();
         CD2.play();
+        CD3.play();
     }
 }
