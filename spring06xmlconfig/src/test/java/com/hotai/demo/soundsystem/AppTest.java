@@ -11,18 +11,18 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("classpath:applicationContext.xml")
 public class AppTest {
     @Autowired
-    private CompactDisk CD1;
+    private CompactDisk CD111;
 
     @Autowired
     private CompactDisk CD2;
 
     @Autowired
-    @Qualifier("CD1")
+    @Qualifier("CD1111")
     private CompactDisk CD3;
 
     @Test
     public void testApp() {
-        CD1.play();
+        CD111.play();
         CD2.play();
         CD3.play();
     }
