@@ -26,14 +26,12 @@ public class AppConfig {
         return new UserDAOImpl();
     }
 
-    @Bean
-    @Qualifier("cacheDAO")
+    @Bean("cacheDAO")
     public UserDAO userDaoCache () {
         System.out.println("AppConfig: creating userDaoCache!");
         return new UserDaoCache();
     }
-    @Bean
-    @Qualifier("dbDAO")
+    @Bean("dbDAO")
     public UserService userService(@Qualifier("cacheDAO") UserDAO userDAO) {
         System.out.println("AppConfig: creating UserService!");
         return new UserServiceNormal(userDAO);
