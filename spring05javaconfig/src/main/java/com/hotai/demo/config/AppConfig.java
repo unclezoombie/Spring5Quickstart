@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Primary;
 //@ComponentScan(basePackages = {"com.hotai.demo.service", "com.hotai.demo.web", "com.hotai.demo.dao"})
 //@ComponentScan(basePackageClasses = {UserController.class, UserService.class, UserDAO.class})
 public class AppConfig {
-    @Bean
+    @Bean("dbDAO")
     public UserDAO userDAOImpl () {
         System.out.println("AppConfig: creating userDAOImpl!");
         return new UserDAOImpl();
@@ -31,7 +31,7 @@ public class AppConfig {
         System.out.println("AppConfig: creating userDaoCache!");
         return new UserDaoCache();
     }
-    @Bean("dbDAO")
+    @Bean
     public UserService userService(@Qualifier("cacheDAO") UserDAO userDAO) {
         System.out.println("AppConfig: creating UserService!");
         return new UserServiceNormal(userDAO);
